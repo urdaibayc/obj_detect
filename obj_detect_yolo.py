@@ -1,5 +1,3 @@
-# https://github.com/akash-agni
-
 import torch
 import numpy as np
 import cv2
@@ -9,7 +7,7 @@ from time import time
 
 class ObjectDetection:
     """
-    Class implements Yolo5 model to make inferences on a youtube video using Opencv2.
+    Class implements Yolo5 model to make inferences on a video using Opencv2.
     """
 
     def __init__(self, url, out_file="Labeled_Video.avi"):
